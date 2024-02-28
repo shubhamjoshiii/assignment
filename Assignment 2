@@ -1,0 +1,749 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNg54oJBOrk47NNUkkjPXdO",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/shubhamjoshiii/assignment/blob/main/Assignment%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JUNh9EGeruFM",
+        "outputId": "f059ea5d-38d1-45a2-c7a0-0b0aa0281e55"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the 1st number 34\n",
+            "enter the 2nd number 45\n",
+            "b is greater or equal\n"
+          ]
+        }
+      ],
+      "source": [
+        "a=int(input(\"enter the 1st number \"))\n",
+        "b=int(input(\"enter the 2nd number \"))\n",
+        "if a>b:\n",
+        "  print(\"a is greater\")\n",
+        "else:\n",
+        "  print(\"b is greater or equal\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter the number \"))\n",
+        "if a%2==0:\n",
+        "  print(\"number is even\")\n",
+        "else:\n",
+        "  print(\"number is odd\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vyu1pjLTuAW8",
+        "outputId": "2132bc13-7f09-411b-a57c-6de663fd491e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number 9\n",
+            "number is odd\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=float(input(\"enter the number \"))\n",
+        "if a>0:\n",
+        "  print(\"positive number\")\n",
+        "elif a<0:\n",
+        "  print(\"negative number\")\n",
+        "else:\n",
+        "  print(\"zero\")\n"
+      ],
+      "metadata": {
+        "id": "jjS4c6XlBISD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "password=input(\"enter the password \")\n",
+        "if password==\"python123\":\n",
+        "  print(\"Access granted\")\n",
+        "else:\n",
+        "  print(\"Access denied\")"
+      ],
+      "metadata": {
+        "id": "ZRg6z1-6Np3F",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "e0ed4965-5fa9-44b7-a428-38060eea2035"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the password python123\n",
+            "Access granted\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age=int(input(\"enter your age \"))\n",
+        "if age>=18:\n",
+        "  print(\"You are an adult\")\n",
+        "else:\n",
+        "  print(\"You are not an adult\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ooBy9OgsOWKG",
+        "outputId": "99a38cd9-d55e-4cda-e439-06ee52a51936"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your age 19\n",
+            "You are an adult\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temperature=float(input(\"enter the temperature \"))\n",
+        "if temperature>30:\n",
+        "  print(\"It's a hot day.\")\n",
+        "else:\n",
+        "  print(\"It's not a hot day.\")"
+      ],
+      "metadata": {
+        "id": "KAjJtpynPmhh",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "3fa31ac7-09b9-4a81-ae43-ba2a438ae048"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the temperature 12\n",
+            "It's not a hot day.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=float(input(\"enter the number \"))\n",
+        "if a>0:\n",
+        "  print(\"positive number\")\n",
+        "elif a<0:\n",
+        "  print(\"negative number\")\n",
+        "else:\n",
+        "  print(\"zero\")"
+      ],
+      "metadata": {
+        "id": "D12Rz2N2RaC9",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "ebc65e1f-dacb-49d9-ef30-d594b1f42ba2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number 2\n",
+            "positive number\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "score=int(input(\"enter student score \"))\n",
+        "if score>=90:\n",
+        "  print(\"A\")\n",
+        "elif score>=80:\n",
+        "  print(\"B\")\n",
+        "elif score>=70:\n",
+        "  print(\"C\")\n",
+        "elif score>=60:\n",
+        "  print(\"D\")\n",
+        "else:\n",
+        "  print(\"F\")"
+      ],
+      "metadata": {
+        "id": "RyBRbWrmaXzr",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "25ba332a-97b6-4bb5-e0d2-e7be372ead55"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter student score 35\n",
+            "F\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter the 1st number \"))\n",
+        "b=int(input(\"enter the 2nd number \"))\n",
+        "if a>b:\n",
+        "  print(\"a is greater\")\n",
+        "else:\n",
+        "  print(\"b is greater or equal\")"
+      ],
+      "metadata": {
+        "id": "UTJasyLVmF3Z",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "461d5859-3686-417e-a575-46ad5b8119a9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the 1st number 34\n",
+            "enter the 2nd number 26\n",
+            "a is greater\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter the number \"))\n",
+        "if a%2==0:\n",
+        "  print(\"number is even\")\n",
+        "else:\n",
+        "  print(\"number is odd\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HN_rgbrFv3Tr",
+        "outputId": "5b63fa39-54f8-4a04-a9f2-d9d8df156d0f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number 45\n",
+            "number is odd\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=float(input(\"enter the number \"))\n",
+        "if a>0:\n",
+        "  print(\"positive number\")\n",
+        "elif a<0:\n",
+        "  print(\"negative number\")\n",
+        "else:\n",
+        "  print(\"zero\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kx4vECeT09TV",
+        "outputId": "9b014cff-c57b-40cd-9699-eda446dc6f5e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number -2\n",
+            "negative number\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age=int(input(\"enter your age \"))\n",
+        "if age<13:\n",
+        "  print(\"Child\")\n",
+        "elif age>=13 and age<=19:\n",
+        "  print(\"Teenager\")\n",
+        "else:\n",
+        "  print(\"Adult\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JqoiZieN1GfF",
+        "outputId": "f54ba110-5695-4998-a2d3-7ab29f2f973a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your age 43\n",
+            "Adult\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "password=input(\"enter a password \")\n",
+        "if len(password)<8:\n",
+        "  print(\"weak\")\n",
+        "else:\n",
+        "  print(\"strong\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "shWrAtsm14ZF",
+        "outputId": "78110276-5e56-401b-f99e-937de3600049"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a password wr4fed\n",
+            "weak\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age=int(input(\"enter your age \"))\n",
+        "if age>=21:\n",
+        "  print(\"You are allowed to enter\")\n",
+        "else:\n",
+        "  print(\"Access denied\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hIiHR0va3L6W",
+        "outputId": "701ea86a-6557-4175-8a5b-e4196312c823"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your age 19\n",
+            "Access denied\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=float(input(\"enter 1st number \"))\n",
+        "b=float(input(\"enter 2nd number \"))\n",
+        "if a==b:\n",
+        "  print(\"equal\")\n",
+        "else:\n",
+        "  print(\"not equal\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1mPC0IlR3psE",
+        "outputId": "b65a2597-6cec-463c-8cc0-b46cab39771d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter 1st number 34\n",
+            "enter 2nd number 23\n",
+            "not equal\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "score=int(input(\"enter student score \"))\n",
+        "if score>=90:\n",
+        "  print(\"A\")\n",
+        "elif score>=80:\n",
+        "  print(\"B\")\n",
+        "elif score>=70:\n",
+        "  print(\"C\")\n",
+        "elif score>=60:\n",
+        "  print(\"D\")\n",
+        "else:\n",
+        "  print(\"F\")"
+      ],
+      "metadata": {
+        "id": "hX7qgULB6hcX",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "2afbdedd-db25-402b-8a73-6323ee9b461b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter student score 34\n",
+            "F\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=float(input(\"enter original price \"))\n",
+        "b=a*0.9\n",
+        "print(\"the final price after discount is\",b)"
+      ],
+      "metadata": {
+        "id": "K0UaVtOB6_N1",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "68fae0d2-cf4c-4754-8d27-f2ffc2200e1f"
+      },
+      "execution_count": 48,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter original price 1000\n",
+            "the final price after discount is 900.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=float(input(\"enter weight in kg \"))\n",
+        "b=float(input(\"enter height in meter \"))\n",
+        "bmi=a/(b**2)\n",
+        "print(f\"your BMI is\",bmi)"
+      ],
+      "metadata": {
+        "id": "KNqRDCgOCBCO",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "44d0daa2-88c7-40b4-9415-b7779fe478bb"
+      },
+      "execution_count": 51,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter weight in kg 60\n",
+            "enter height in meter 140\n",
+            "your BMI is 0.003061224489795918\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "password=input(\"enter the password \")\n",
+        "if password==\"password123\":\n",
+        "  print(\"Access granted\")\n",
+        "else:\n",
+        "  print(\"Access denied\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "alSjlwIfEeDv",
+        "outputId": "25ca74be-7ce2-418b-cb73-878172fc767c"
+      },
+      "execution_count": 52,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the password edefrgt\n",
+            "Access denied\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age=int(input(\"enter your age \"))\n",
+        "if age<=12:\n",
+        "  ticket_price=5\n",
+        "elif age<=18:\n",
+        "  ticket_price=8\n",
+        "else:\n",
+        "  ticket_price=12\n",
+        "print(f\"price of ticket is Rs{ticket_price}.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FxMDtr-UFT06",
+        "outputId": "5898f540-e319-4a74-8742-4ecfdc50cee7"
+      },
+      "execution_count": 54,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your age 4\n",
+            "price of ticket is Rs5.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=float(input(\"enter original price \"))\n",
+        "if a>=50:\n",
+        "  b=a*0.9\n",
+        "  print(\"the final price after discount is\",b)\n",
+        "else:\n",
+        "  print(\"final price\",a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_h4dAYItHw0R",
+        "outputId": "f176f3b7-1737-49ff-a0be-2f6049bc873b"
+      },
+      "execution_count": 57,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter original price 51\n",
+            "the final price after discount is 45.9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "color=input(\"enter color \")\n",
+        "if color==\"red\":\n",
+        "  print(\"Stop\")\n",
+        "elif color==\"yellow\":\n",
+        "  print(\"slow down\")\n",
+        "elif color==\"green\":\n",
+        "  print(\"go\")\n",
+        "else:\n",
+        "  print(\"invalid\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eOyyFmCFH4zO",
+        "outputId": "4e11a881-7456-46c5-b92a-fdc977e66b97"
+      },
+      "execution_count": 59,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter color yellow\n",
+            "slow down\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1=float(input(\"enter 1st no \"))\n",
+        "operator=input(\"enter an operator \")\n",
+        "num2=float(input(\"enter 2nd no \"))\n",
+        "if operator==\"+\":\n",
+        "           result=num1+num2\n",
+        "elif operator==\"-\":\n",
+        "           result=num1-num2\n",
+        "elif operator ==\"*\":\n",
+        "           result=num1*num2\n",
+        "elif operator==\"/\":\n",
+        "           if num2==0:\n",
+        "            result=\"division by zero is not allowed\"\n",
+        "           else:\n",
+        "            result=num1/num2\n",
+        "else:\n",
+        "           result=\"invalid\"\n",
+        "print(f\"{num1}{operator}{num2}={result}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ERzUMP90It9t",
+        "outputId": "c610d7a8-0ab8-4d14-c262-f9fb05482e10"
+      },
+      "execution_count": 64,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter 1st no 45\n",
+            "enter an operator -\n",
+            "enter 2nd no 54\n",
+            "45.0-54.0=-9.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "score=float(input(\"enter your percentage \"))\n",
+        "if score>=90:\n",
+        "  print(\"Excellent\")\n",
+        "elif score>=80:\n",
+        "  print(\"Good\")\n",
+        "elif score>=70:\n",
+        "  print(\"Satisfactory\")\n",
+        "else:\n",
+        "  print(\"Needs Improvement\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Puh4XYp2LYtP",
+        "outputId": "3c69abff-5e5e-4505-9b2f-1884a072d36b"
+      },
+      "execution_count": 67,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your percentage 89\n",
+            "Good\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "zW03gMuZNuA0"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
